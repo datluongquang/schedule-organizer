@@ -4,12 +4,14 @@ http.createServer(function(req, res) {
     res.writeHead(200, {
         'Content-Type': 'text/html'
     });
-    res.write('<!doctype html><html lang="en">' +
+    var a=3;
+    res.write(
+        '<!doctype html><html lang="en">' +
         '<head>' +
         '<\/head>' +
         '<body>' +
         '<H1>This is a Header</H1>'+
-        '<script>print(a)' +
+        '<script>var MongoClient = require(\'mongodb\').MongoClient;'+
         '</script>'+
         '<\/body>' +
         '<\/html>');
