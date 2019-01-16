@@ -4,46 +4,8 @@
     <list default="true" id="1b43d9ac-b425-4472-a97f-fcd9623d485c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
-      <change beforePath="$PROJECT_DIR$/modifiedMain.js" afterPath="$PROJECT_DIR$/modifiedMain.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/browserify/package.json" afterPath="$PROJECT_DIR$/node_modules/browserify/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/package.json" afterPath="$PROJECT_DIR$/node_modules/express/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/.npmignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/LICENSE" afterPath="$PROJECT_DIR$/node_modules/uglify-js/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/README.md" afterPath="$PROJECT_DIR$/node_modules/uglify-js/README.md" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/bin/uglifyjs" afterPath="$PROJECT_DIR$/node_modules/uglify-js/bin/uglifyjs" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/ast.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/ast.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/compress.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/compress.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/mozilla-ast.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/mozilla-ast.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/output.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/output.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/parse.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/parse.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/scope.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/scope.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/sourcemap.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/sourcemap.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/transform.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/transform.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/lib/utils.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/package.json" afterPath="$PROJECT_DIR$/node_modules/uglify-js/package.json" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/test/compress/arrays.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/test/compress/blocks.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/test/compress/conditionals.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/test/compress/dead-code.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/test/compress/debugger.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/test/compress/drop-unused.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/test/compress/issue-105.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/test/compress/issue-12.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/test/compress/issue-22.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/test/compress/issue-44.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/test/compress/issue-59.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/test/compress/labels.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/test/compress/loops.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/test/compress/properties.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/test/compress/sequences.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/test/compress/switch.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/test/compress/typeof.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/test/run-tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/tools/node.js" afterPath="$PROJECT_DIR$/node_modules/uglify-js/tools/node.js" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" />
+      <change beforePath="$PROJECT_DIR$/test.html" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -69,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="203">
+              <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -81,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.html">
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="168">
+              <caret line="8" column="90" lean-forward="false" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -94,8 +56,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="401">
+              <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -104,8 +66,8 @@
       <file leaf-file-name="addPre.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addPre.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="84">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -125,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="441">
-              <caret line="32" column="4" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -158,8 +120,9 @@
         <option value="$PROJECT_DIR$/addPre.js" />
         <option value="$PROJECT_DIR$/scrape.js" />
         <option value="$PROJECT_DIR$/main.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/views/test.html" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -206,6 +169,11 @@
               <item name="schedule-organizer" type="b2602c69:ProjectViewProjectNode" />
               <item name="schedule-organizer" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="schedule-organizer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="schedule-organizer" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -274,23 +242,22 @@
       <workItem from="1547072454992" duration="4920000" />
       <workItem from="1547103319656" duration="2066000" />
       <workItem from="1547148879396" duration="11871000" />
-      <workItem from="1547352097721" duration="25995000" />
+      <workItem from="1547352097721" duration="31110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55463000" />
+    <option name="totallyTimeSpent" value="60578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17874141" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17874141" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23717217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23717217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35679013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -563,7 +530,7 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
-          <caret line="32" column="4" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -626,22 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addPre.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8148">
@@ -650,21 +601,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/addPre.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="84">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="90" lean-forward="false" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
