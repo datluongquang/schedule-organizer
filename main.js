@@ -1,17 +1,20 @@
-var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/YourDB";
-function runschedule(){
-    var checkedBoxes = getCheckedBoxes("chkbox");
-    MongoClient.connect(url, function(err, db) {
-        for(var i=0;i<num;i++) {
-            if (err) throw err;
-            var dbo = db.db("mydb");
-            dbo.collection(document.getElementById("Subject").options[i]).find({}).toArray(function (err, result) {
+function runschedule() {
+    require(['require', 'mongodb'], function (require) {
+        var MongoClient = require('mongodb').MongoClient;
+        var checkedBoxes = getCheckedBoxes("chkbox");
+        var num=checkedBoxes.length;
+        MongoClient.connect(url, function (err, db) {
+            for (var i = 0; i < num; i++) {
                 if (err) throw err;
-                console.log(result);
-            });
-        }
-        db.close();
+                var dbo = db.db("mydb");
+                dbo.collection(document.getElementById("Subject").options[i]).find({}).toArray(function (err, result) {
+                    if (err) throw err;
+                    console.log(result);
+                });
+            }
+            db.close();
+        });
     });
 }
 // MongoClient.connect(url, function(err, db) {
