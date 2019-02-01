@@ -33,18 +33,33 @@ app.get("/",(req,res)=>{
 });
 app.post('/getSubject',(req,res)=>{
     var checkedBoxes = req.body["chkbox"];
+    if(!(checkedBoxes instanceof Array)){
+        var temp=checkedBoxes;
+        checkedBoxes=[];
+        checkedBoxes.push(temp)
+    }
     console.log(checkedBoxes);// Only checked box will be return
     MongoClient.connect(url,{ useNewUrlParser: true }, function(err, db) {
         var num=checkedBoxes.length;
-        MongoClient.connect(url, function (err, db) {
-            for (var i = 0; i < num; i++) {
-                if (err) throw err;
-                var dbo = db.db("mydb");
-                var results = dbo.collection(checkedBoxes[i]).find({}).toArray();
-                console.log(results)
+        var dbo = db.db("mydb");
+        var results = [];
+        for (var i = 0; i < num; i++) {
+            if (err) throw err;
+            var dbo = db.db("mydb");
+            function getSub(i) {
+                dbo.collection(checkedBoxes[i]).find({}).toArray(function (err, re) {
+                    if (err) throw err;
+                    for(var j=0;j<re.length;j++){
+                        results.push(re[j]["CourseName"])
+                    }
+                    if(i===num-1){
+                        console.log(results)
+                    }
+                });
             }
-            db.close();
-        });
+            getSub(i);
+        }
+        db.close();
     });
     res.redirect('/');
 });
