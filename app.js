@@ -41,7 +41,6 @@ app.post('/getSubject',(req,res)=>{
     console.log(checkedBoxes);// Only checked box will be return
     MongoClient.connect(url,{ useNewUrlParser: true }, function(err, db) {
         var num=checkedBoxes.length;
-        var dbo = db.db("mydb");
         var results = [];
         for (var i = 0; i < num; i++) {
             if (err) throw err;
@@ -50,10 +49,8 @@ app.post('/getSubject',(req,res)=>{
                 dbo.collection(checkedBoxes[i]).find({}).toArray(function (err, re) {
                     if (err) throw err;
                     for(var j=0;j<re.length;j++){
-                        results.push(re[j]["CourseName"])
-                    }
-                    if(i===num-1){
-                        console.log(results)
+                        results.push(re[j]["SectionList"]);
+                        console.log(re[j]["SectionList"])
                     }
                 });
             }

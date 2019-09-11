@@ -1,18 +1,18 @@
-var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://localhost:27017/YourDB";
-MongoClient.connect(url, {useNewUrlParser: true}, function (err, db) {
-    if (err) throw err;
-    var dbo = db.db("mydb");
-    dbo.collection("Biochemistry").find({}).toArray(function (err,result) {
-        if(err) throw err;
-        for(var i=0;i<result.length;i++){
-            console.log(result[i]['SectionList']);
-            console.log(result[i]['Type'])
-        }
-    });
-
-    db.close();
-});
+// var MongoClient = require('mongodb').MongoClient;
+// var url = "mongodb://localhost:27017/YourDB";
+// MongoClient.connect(url, {useNewUrlParser: true}, function (err, db) {
+//     if (err) throw err;
+//     var dbo = db.db("mydb");
+//     dbo.collection("ComputerScience").find({}).toArray(function (err,result) {
+//         if(err) throw err;
+//         for(var i=0;i<result.length;i++){
+//             console.log(result[i]['SectionList']);
+//             console.log(result[i]['Type'])
+//         }
+//     });
+//
+//     db.close();
+// });
 // var request=require('request');
 // var cheerio=require('cheerio');
 // request("http://bulletin.miamioh.edu//search/?P=MTH%20447", function (error, response, html) {
@@ -61,3 +61,14 @@ MongoClient.connect(url, {useNewUrlParser: true}, function (err, db) {
 //         console.log(Co);
 //     }
 // });
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://localhost:27017/YourDB";
+MongoClient.connect(url, {useNewUrlParser: true}, function (err, db) {
+    var dbo = db.db("mydb");
+    var a = dbo.collection("ComputerScience").find({});
+    a.then(function (result) {
+        while (result.hasNext) {
+            console.log(result.next())
+        }
+    });
+});
